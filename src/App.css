@@ -1,0 +1,39 @@
+img{max-width: 100%; }
+main .row{margin-bottom: 0;}
+main h2{margin: 0; padding: 30px;}
+.flx-cent{display: flex; justify-content: center; align-items: center;}
+.__formbackground{background-color: rgba(255,255,255, .5);}
+
+.__backcolor{padding:100px;}
+/*primer grid*/
+.__backhover:hover{
+    background: url(../src/img/php.jpg) no-repeat fixed center center;
+    background-size: cover;
+    clip-path: polygon(100% 1%, 100% 50%, 100% 100%, 0 71%, 0 34%, 0% 0%);
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.__backhover:hover .__backcolor{
+    background-color: rgba(0, 0, 0, .7);
+    /* filter: drop-shadow(36px 16px 10px black); */
+    background-size: contain !important;
+}
+
+/*segundo grid*/
+.__backhover2:hover{
+    background: url(../src/img/js.png) no-repeat fixed center center;
+    background-size: cover;
+    clip-path: polygon(100% 1%, 100% 50%, 100% 100%, 0 71%, 0 34%, 0% 0%);
+    cursor: pointer;
+    /* filter: grayscale(1); */
+}
+.__backhover2:hover .__backcolor{
+    background-color: rgba(0, 0, 0, .7);
+    /* filter: drop-shadow(36px 16px 10px black); */
+    background-size: contain !important;
+}
+
+.__backhover:hover p, .__backhover:hover h3{color: #fff;}
+.__backhover2:hover p, .__backhover2:hover h3{color: #fff;}
+
+main .row .col{padding: 0 !important;}
